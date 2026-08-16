@@ -1,0 +1,6 @@
+selected resource name:		pl_emr_src_to_land
+selected resource type:		pipeline
+factory name:			adf-hrcm-dev
+factory location:		centralindia
+subscription id:		88b65414-d92f-4712-9768-e91c9dc16add
+time of download (UTC):		Sun, 16 Aug 2026 09:47:42 GMT
