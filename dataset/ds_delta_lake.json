@@ -1,0 +1,30 @@
+{
+    "name": "ds_delta_lake",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_delta_lake",
+            "type": "LinkedServiceReference"
+        },
+        "parameters": {
+            "Schema_Name": {
+                "type": "string"
+            },
+            "Table_Name": {
+                "type": "string"
+            }
+        },
+        "annotations": [],
+        "type": "AzureDatabricksDeltaLakeDataset",
+        "typeProperties": {
+            "database": {
+                "value": "@dataset().Schema_Name",
+                "type": "Expression"
+            },
+            "table": {
+                "value": "@dataset().Table_Name",
+                "type": "Expression"
+            }
+        },
+        "schema": []
+    }
+}
