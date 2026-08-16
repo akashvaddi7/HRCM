@@ -8,10 +8,10 @@
 		"ls_adls_properties_typeProperties_url": {
 			"value": "https://strcmdev.dfs.core.windows.net/"
 		},
-		"ls_sql_emr_properties_typeProperties_server": {
+		"ls_sql_db_emr_properties_typeProperties_server": {
 			"value": "sql-ser-rcm-dev.database.windows.net"
 		},
-		"ls_sql_emr_properties_typeProperties_database": {
+		"ls_sql_db_emr_properties_typeProperties_database": {
 			"value": "@{linkedService().DB_Name}"
 		},
 		"containerUri": {

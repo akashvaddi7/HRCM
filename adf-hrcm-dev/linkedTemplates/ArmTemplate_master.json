@@ -11,11 +11,11 @@
 			"type": "string",
 			"defaultValue": "https://strcmdev.dfs.core.windows.net/"
 		},
-		"ls_sql_emr_properties_typeProperties_server": {
+		"ls_sql_db_emr_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "sql-ser-rcm-dev.database.windows.net"
 		},
-		"ls_sql_emr_properties_typeProperties_database": {
+		"ls_sql_db_emr_properties_typeProperties_database": {
 			"type": "string",
 			"defaultValue": "@{linkedService().DB_Name}"
 		},
@@ -49,11 +49,11 @@
 					"ls_adls_properties_typeProperties_url": {
 						"value": "[parameters('ls_adls_properties_typeProperties_url')]"
 					},
-					"ls_sql_emr_properties_typeProperties_server": {
-						"value": "[parameters('ls_sql_emr_properties_typeProperties_server')]"
+					"ls_sql_db_emr_properties_typeProperties_server": {
+						"value": "[parameters('ls_sql_db_emr_properties_typeProperties_server')]"
 					},
-					"ls_sql_emr_properties_typeProperties_database": {
-						"value": "[parameters('ls_sql_emr_properties_typeProperties_database')]"
+					"ls_sql_db_emr_properties_typeProperties_database": {
+						"value": "[parameters('ls_sql_db_emr_properties_typeProperties_database')]"
 					}
 				}
 			},
